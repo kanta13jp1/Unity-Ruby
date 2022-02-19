@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2594724981361686716}
   - component: {fileID: 2594724981361686717}
-  - component: {fileID: 2594724981361686707}
   - component: {fileID: 2653267715590020802}
   - component: {fileID: 1358626370962118399}
+  - component: {fileID: 6917452538270202970}
   m_Layer: 0
   m_Name: Ruby
   m_TagString: Untagged
@@ -85,18 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
---- !u!114 &2594724981361686707
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2594724981361686718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da1fb640f22484f4e9601b81352a6834, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &2653267715590020802
 Rigidbody2D:
   serializedVersion: 4
@@ -144,3 +132,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.3582909, y: 0.37309748}
   m_EdgeRadius: 0
+--- !u!114 &6917452538270202970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2594724981361686718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b62d3cc725bd3f346ad7f19ce449328c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  maxHealth: 5
