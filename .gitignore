@@ -1,8 +1,2 @@
-
-Temp/CompilationLog.txt
 *.hash
-Temp/UnityLockfile
-Temp/UnityTempFile-027f0e4d4280e1241b409edf4159c53e
-Temp/UnityTempFile-9748ee9f474adf044a9037e367768c5f
-Temp/UnityTempFile-b3869115a4c5d524686feaef22a7f0b7
-Temp/workerlic
+Temp/*
