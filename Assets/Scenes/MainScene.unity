@@ -7076,6 +7076,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ruby
       objectReference: {fileID: 0}
+    - target: {fileID: 6917452538270202970, guid: 590599a126ca82d4e9ad580dfdaf08f8, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 8165729016261809859, guid: f7797fe760ba1e64e93ea01ba5d54c9a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 590599a126ca82d4e9ad580dfdaf08f8, type: 3}
 --- !u!1001 &3358856685986065117
