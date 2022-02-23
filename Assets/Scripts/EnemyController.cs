@@ -31,6 +31,7 @@ public class EnemyController : MonoBehaviour
         {
             return;
         }
+        
         timer -= Time.deltaTime;
 
         if (timer < 0)
@@ -42,10 +43,12 @@ public class EnemyController : MonoBehaviour
 
     void FixedUpdate()
     {
+        //remember ! inverse the test, so if broken is true !broken will be false and return won’t be executed.
         if(!broken)
         {
             return;
         }
+
         Vector2 position = rigidbody2d.position;
         
         if (vertical)
@@ -81,5 +84,6 @@ public class EnemyController : MonoBehaviour
     {
         broken = false;
         GetComponent<Rigidbody2D>().simulated = false;
+        animator.SetTrigger("Fixed");
     }
 }
