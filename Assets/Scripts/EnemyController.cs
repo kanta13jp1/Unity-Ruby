@@ -8,6 +8,8 @@ public class EnemyController : MonoBehaviour
     public bool vertical;
     public float changeTime = 3.0f;
     
+    public ParticleSystem smokeEffect;
+
     Rigidbody2D rigidbody2d;
     float timer;
     int direction = 1;
@@ -31,7 +33,7 @@ public class EnemyController : MonoBehaviour
         {
             return;
         }
-        
+
         timer -= Time.deltaTime;
 
         if (timer < 0)
@@ -85,5 +87,7 @@ public class EnemyController : MonoBehaviour
         broken = false;
         GetComponent<Rigidbody2D>().simulated = false;
         animator.SetTrigger("Fixed");
+
+        smokeEffect.Stop();
     }
 }
